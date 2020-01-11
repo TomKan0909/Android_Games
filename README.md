@@ -14,23 +14,23 @@ You can also customize your experience by changing the language, theme, and your
 
 1. Maze Navigator game. Goal of the game is to escape the maze in the fewest number of steps.
 Collect coins to increase your score by a random amount. There are three difficulty levels.
-![easy][images/maze_easy.png] ![medium][images/maze_medium.png] ![hard][images/maze_hard.png]
+![easy][https://github.com/TomKan0909/android_games/tree/master/images/maze_easy.png] ![medium][https://github.com/TomKan0909/android_games/tree/master/images/maze_medium.png] ![hard][https://github.com/TomKan0909/android_games/tree/master/images/maze_hard.png]
 
 At the end of each game, the score is recorded and the score is also converted to coins. This also
 applies to the other games(Tiles and Tapioca Launcher).
-![record_score][images/record_score.png]
+![record_score][https://github.com/TomKan0909/android_games/tree/master/images/record_score.png]
 
 2. All CRUD operations in the game. The login & register functionality. 
 
-![login][images/login.png] ![register][images/register.png]
+![login][https://github.com/TomKan0909/android_games/tree/master/images/login.png] ![register][https://github.com/TomKan0909/android_games/tree/master/images/register.png]
 
 Retrieving display user's high score, average score, best time ,average time taken for each game.
 
-![user_stats][images/user_stats.png]
+![user_stats][https://github.com/TomKan0909/android_games/tree/master/images/user_stats.png]
 
 And recording in game micro-transactions.
 
-![store][images/store.png] ![store_bought.png]
+![store][https://github.com/TomKan0909/android_games/tree/master/images/store.png] ![store_bought][https://github.com/TomKan0909/android_games/tree/master/images/.png]
 
 
 
