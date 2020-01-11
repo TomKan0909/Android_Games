@@ -26,24 +26,20 @@ Collect coins to increase your score by a random amount. There are three difficu
 At the end of each game, the score is recorded and the score is also converted to coins. This also
 applies to the other games(Tiles and Tapioca Launcher).
 
-![](https://github.com/TomKan0909/android_games/blob/master/images/record_score.png)
+<img src = "https://github.com/TomKan0909/android_games/blob/master/images/record_score.png" width="400">
 
 2.All CRUD operations in the game. 
 
 The login & register functionality. 
-![](https://github.com/TomKan0909/android_games/blob/master/images/login.png) 
-
-![](https://github.com/TomKan0909/android_games/blob/master/images/register.png)
+<img src = "https://github.com/TomKan0909/android_games/blob/master/images/login.png" width="300"> <img src = "https://github.com/TomKan0909/android_games/blob/master/images/register.png" width="300">
 
 Retrieving display user's high score, average score, best time ,average time taken for each game.
-
-![](https://github.com/TomKan0909/android_games/blob/master/images/user_stats.png)
+<img src = "https://github.com/TomKan0909/android_games/blob/master/images/user_stats.png" width="300">
 
 And recording in game micro-transactions.
 
-![](https://github.com/TomKan0909/android_games/blob/master/images/store.png) 
+<img src = "https://github.com/TomKan0909/android_games/blob/master/images/store.png" width="300"> <img src = "https://github.com/TomKan0909/android_games/blob/master/images/store_bought.png" width="300">
 
-![](https://github.com/TomKan0909/android_games/blobmaster/images/store_bought.png)
 
 
 
