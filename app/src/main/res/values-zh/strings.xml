@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Translations made by Google translate -->
+<resources>
+    <string name="app_name">遊戲</string>
+    <string name="button_maze">迷宮</string>
+    <string name="button_tapioca_launcher">木薯粉發射器</string>
+    <string name="button_tiles">瓷磚</string>
+    <string name="select_game">選擇遊戲</string>
+    <string name="title_tiles">瓷磚!</string>
+    <string name="buttonPlay">玩</string>
+    <string name="signUp">註冊</string>
+    <string name="changeLang">語言</string>
+    <string name="level">" 级: "</string>
+    <string name="score">得分</string>
+    <string name="highScore">"高分: "</string>
+    <string name="username2">" 用戶名"</string>
+    <string name="username">" 用戶名"</string>
+    <string name="title_activity_login">登入</string>
+    <string name="register_button">註冊</string>
+    <string name="login_button">登入</string>
+    <string name="password">" 密碼"</string>
+    <string name="password2">" 密碼"</string>
+    <string name="create_account">註冊</string>
+    <string name="button_exit">离开</string>
+    <string name="button_retry">再来</string>
+    <string name="steps">" 腳步"</string>
+    <string name="change_theme">颜色</string>
+    <string name="TapiocaScore">" 木薯粉發射器高分："</string>
+    <string name="MazeScore">"迷宮高分: "</string>
+    <string name="TileScore">"瓷磚高分: "</string>
+    <string name="MazeTime">"花時間玩迷宮: "</string>
+    <string name="TileTime">花時間玩瓷磚:</string>
+    <string name="Reset">重置统计信息</string>
+    <string name="Statistics">" 您的統計數據"</string>
+    <string name="attachment_summary_off">仅在手动请求时下载附件</string>
+    <string name="attachment_summary_on">自动下载传入电子邮件的附件</string>
+    <string name="attachment_title">下载传入的附件</string>
+    <string name="messages_header">留言内容</string>
+    <string name="reply_title">默认回复动作</string>
+    <string name="signature_title">你的签名</string>
+    <string name="sync_header">同步</string>
+    <string name="sync_title">定期同步电子邮件</string>
+    <string name="title_activity_settings">设定值</string>
+    <string name="instructions_maze">逃脱迷宫！ 您采取的步骤越少，得分越高。 通过点击箭头按钮来移动角色。</string>
+    <string name="text_game_over">游戏结束</string>
+    <string name="text_swipe_left">向左滑动！</string>
+    <string name="text_swipe_right">向右滑动！</string>
+    <string name="title_maze">迷宫</string>
+    <string name="NotAvailable">還不可用 ：（</string>
+    <string name="SwipeToShop">向右滑動即可購物！</string>
+    <string name="coins">" 硬幣 "</string>
+    <string name="characters">" 擁有的角色： "</string>
+    <string name="play_4by4">4 x 4</string>
+    <string name="text_select_mode">选择你的模式</string>
+    <string name="play_5by5">5 x 5</string>
+    <string name="text_settings">设定值</string>
+    <string name="button_settings_exit">x</string>
+    <string name="text_dark">暗</string>
+    <string name="text_light">光</string>
+    <string name="purchase">" 我要它！"</string>
+    <string name="cancel">" 取消"</string>
+    <string name="gisignIn">" 登入"</string>
+    <string name="likeToPurchase">" 您要購買嗎？"</string>
+    <string name="instructions">使用说明</string>
+    <string name="instructions_tapioca">"弹出所有球！
+
+单击黑球，然后将其拖向要发射的方向。
+
+棕球需要1枪才能摧毁！
+红球拍两枪摧毁
+白球会给你提速！
+紫球會給您額外的生命！
+
+但是要快，因为您的镜头数量有限！"</string>
+    <string name="play_invert">倒置</string>
+    <string name="play_easy">简单</string>
+    <string name="play_medium">介质</string>
+    <string name="play_hard">硬</string>
+    <string name="MazeEasyScore">"迷宫（简单）高分: "</string>
+    <string name="MazeMediumScore">迷宫（中）高分 :</string>
+    <string name="MazeHardScore">迷宫（难）高分 :</string>
+    <string name="shots">镜头：</string>
+    <string name="Tiles4Score">瓷砖（4 X 4）高分：</string>
+    <string name="Tiles5Score">瓷砖 （5 X 5）高分：</string>
+    <string name="TilesInvertScore">瓷砖 （颠倒）高分：</string>
+    <string name="instructions_tiles_dark">请勿触摸黑色瓷砖！ 点击白色瓷砖以获取积分。 如果您敲击黑色瓷砖或未挖掘的白色瓷砖离开电路板，则您会输。  在4X4或5X5电路板之间进行选择以定期播放，对于挑战，请选择反转模式！ 在反转模式下，白色图块和黑色图块将随机地相互反转。 您仍然想轻拍所有白色瓷砖，避免黑色瓷砖，所以要小心！</string>
+    <string name="itemDescription">" 你想購買這個"</string>
+    <string name="MazeEasyTime">迷宫 （简单）最好时间：</string>
+    <string name="MazeHardTime">迷宫（难）最好时间:</string>
+    <string name="MazeMediumTime">迷宫 （中）最好时间:</string>
+    <string name="MazeHardAvgTime">迷宫（难）平均时间</string>
+
+    <string name="alreadyOwn">你已經擁有這個東西了</string>
+    <string name="successfulPurchase">" 您的購買成功"</string>
+    <string name="insufficientFunds">在4X4或5X5电路板之间进行选择以定期播放，对于挑战，请选择反转模式！ 在反转模式下，白色图块和黑色图块将随机地相互反转。 您仍然想轻拍所有白色瓷砖，避免黑色瓷砖，所以要小心！</string>
+    <string name="Sprite">Sprite</string>
+    <string name="pick_sprite">選擇精靈：</string>
+    <string name="colourDefault">默認</string>
+    <string name="colourGreenPurple">綠色/紫色</string>
+    <string name="colourOrangeTeal">橙色/藍綠色</string>
+    <string name="colourBluePink">" 藍色/粉紅色"</string>
+    <string name="TapiocaAvgTime">木薯粉平均時間：</string>
+    <string name="TapiocaBestTime">" 木薯粉最佳時間："</string>
+    <string name="Tiles4Time">平鋪（4 X 4）最佳時間：</string>
+    <string name="Tiles5Time">" 平鋪（5 X 5）最佳時間："</string>
+    <string name="TilesInvertAvgTime">平鋪（反轉）平均時間：</string>
+    <string name="TilesInvertTime">平鋪（反轉）最佳時間：</string>
+</resources>

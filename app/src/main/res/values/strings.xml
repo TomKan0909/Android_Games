@@ -1,0 +1,117 @@
+<resources>
+    <string name="app_name">Game</string>
+    <string name="button_maze">Maze</string>
+    <string name="button_tapioca_launcher">Tapioca Launcher</string>
+    <string name="button_tiles">Tiles</string>
+    <string name="select_game">Select Your Game</string>
+    <string name="title_tiles">Tiles!</string>
+    <string name="title_maze">Maze</string>
+    <string name="buttonPlay">Play</string>
+    <string name="signUp">Sign Up</string>
+    <string name="gisignIn">Sign In</string>
+    <string name="changeLang">Language</string>
+    <string name="level">"Level: "</string>
+    <string name="score">Score</string>
+    <string name="highScore">"High Score: "</string>
+    <string name="title_activity_login">Sign in</string>
+    <string name="username">Enter your username</string>
+    <string name="password">Enter your password</string>
+    <string name="login_button">login</string>
+    <string name="register_button">register</string>
+    <string name="create_account">create</string>
+    <string name="username2">Enter your username</string>
+    <string name="password2">Enter your password</string>
+    <string name="button_exit">Exit</string>
+    <string name="button_retry">Try Again</string>
+    <string name="steps">Steps</string>
+    <string name="change_theme">Theme</string>
+    <string name="title_activity_settings">Settings</string>
+
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_title">Your signature</string>
+    <string name="reply_title">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_title">Sync email periodically</string>
+    <string name="attachment_title">Download incoming attachments</string>
+    <string name="attachment_summary_on">"Automatically download attachments for incoming emails     "</string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <string name="TapiocaScore">Tapioca Launcher High Score:</string>
+    <string name="MazeScore">Maze High Score:</string>
+    <string name="TileScore">Tiles High Score:</string>
+    <string name="MazeTime">Time Spent Playing Maze:</string>
+    <string name="TileTime">Time Spent Playing Tiles:</string>
+    <string name="Reset">" Reset Statistics"</string>
+    <string name="Statistics">Your Statistics</string>
+    <string name="text_game_over">Game Over</string>
+    <string name="text_swipe_right">Swipe Right!</string>
+    <string name="text_swipe_left">Swipe Left!</string>
+    <string name="instructions_maze">Escape the maze! The fewer steps you take the higher your score. Move your character by tapping the arrow buttons.</string>
+    <string name="NotAvailable">Not Available Yet :(</string>
+    <string name="SwipeToShop">Swipe Right To Shop!</string>
+    <string name="characters">Characters Owned:</string>
+    <string name="play_4by4">4 x 4</string>
+    <string name="text_select_mode">Select your mode:</string>
+    <string name="play_5by5">5 x 5</string>
+    <string name="text_settings">Settings</string>
+    <string name="button_settings_exit">x</string>
+    <string name="text_light">Light</string>
+    <string name="text_dark">Dark</string>
+    <item name="num" type="id" />
+    <item name="price" type="id" />
+    <item name="id" type="id" />
+
+    <string name="purchase">I want it!</string>
+    <string name="cancel">Cancel</string>
+    <string name="likeToPurchase">Would you like to purchase?</string>
+    <string name="instructions">Instructions</string>
+    <string name="instructions_tapioca">"Pop all the balls!
+
+Click on the black balls and drag it in the direction you want to fire it.
+
+Brown balls take 1 shot to destroy!
+Red balls take 2 shots to destroy
+White balls will give you a speed boost!
+Purple balls will give you extra lives!
+
+But be quick as you only have a limited number of shots!"
+    </string>
+    <string name="play_invert">Invert</string>
+    <string name="play_hard">Hard</string>
+    <string name="play_easy">Easy</string>
+    <string name="play_medium">Medium</string>
+    <string name="MazeEasyScore">Maze (Easy) High Score:</string>
+    <string name="MazeMediumScore">Maze (Medium) High Score:</string>
+    <string name="MazeHardScore">Maze (Hard) High Score:</string>
+    <string name="shots">"Shots: "</string>
+    <string name="Tiles4Score">Tiles (4 X 4) High Score:</string>
+    <string name="Tiles5Score">Tiles (5 X 5) High Score:</string>
+    <string name="TilesInvertScore">Tiles (Invert) High Score:</string>
+    <string name="instructions_tiles_dark">Don\'t touch the black tiles! Tap the white tiles to gain points. You lose if you tap a black tile or when an untapped white tile leaves the board.\n \n Choose between a 4X4 or 5X5 board to play regularly, and for a challenge, choose the invert mode! In the invert mode, white tiles and black tiles will randomly invert to the respective other. You still want to tap all the white tiles and avoid the black tiles so be careful!</string>
+    <string name="instructions_tiles_light">Don\'t touch the white tiles! Tap the black tiles to gain points. You lose if you tap a white tile or when an untapped black tile leaves the board.\n \n Choose between a 4X4 or 5X5 board to play regularly, and for a challenge, choose the invert mode! In the invert mode, black tiles and white tiles will randomly invert to the respective other. You still want to tap all the black tiles and avoid the white tiles so be careful!</string>
+    <string name="MazeEasyTime">Maze (Easy) Best Time:</string>
+    <string name="MazeMediumTime">Maze (Medium) Best Time:</string>
+    <string name="MazeHardTime">Maze (Hard) Best Time:</string>
+    <string name="MazeHardAvgTime">Maze (Hard) Average Time:</string>
+    <string name="Tiles4Time">Tiles (4 X 4) Best Time:</string>
+    <string name="Tiles5Time">Tiles (5 X 5) Best Time:</string>
+    <string name="TilesInvertTime">Tiles (Invert) Best Time:</string>
+    <string name="TilesInvertAvgTime">Tiles (Invert) Average Time:</string>
+    <string name="TapiocaAvgTime">Tapioca Average Time:</string>
+    <string name="TapiocaBestTime">Tapioca Best Time:</string>
+    <string name="itemDescription">"Would you like to purchase this for "</string>
+    <string name="alreadyOwn">You already own this item</string>
+    <string name="successfulPurchase">Your purchase was successful</string>
+    <string name="insufficientFunds">You lack the necessary funds to execute this operation</string>
+    <string name="coins">"Coins "</string>
+    <string name="Sprite">Sprite</string>
+    <string name="pick_sprite">Pick sprite:</string>
+    <string name="colourDefault">Default</string>
+    <string name="colourGreenPurple">Green/Purple</string>
+    <string name="colourOrangeTeal">Orange/Teal</string>
+    <string name="colourBluePink">Blue/Pink</string>
+</resources>

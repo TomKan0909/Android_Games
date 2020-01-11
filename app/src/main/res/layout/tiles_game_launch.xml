@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linearLayout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Button
+        android:id="@+id/buttonPlayInvert"
+        style="?buttonPrimary"
+        android:layout_width="110dp"
+        android:layout_height="55dp"
+        android:layout_marginBottom="55dp"
+        android:onClick="startTilesInvert"
+        android:text="@string/play_invert"
+        android:textAllCaps="true"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonExitTiles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/buttonPlay4By4" />
+
+    <TextView
+        android:id="@+id/titleTiles"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:text="@string/title_tiles"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="24pt"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toTopOf="@+id/instructionsTiles"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/buttonPlay4By4"
+        style="?buttonPrimary"
+        android:layout_width="110dp"
+        android:layout_height="55dp"
+        android:layout_marginTop="35dp"
+        android:layout_marginBottom="25dp"
+        android:onClick="startTiles4By4"
+        android:text="@string/play_4by4"
+        android:textAllCaps="true"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintBottom_toTopOf="@+id/buttonPlayInvert"
+        app:layout_constraintEnd_toStartOf="@+id/buttonPlay5By5"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textModeSelect" />
+
+    <Button
+        android:id="@+id/buttonPlay5By5"
+        style="?buttonPrimary"
+        android:layout_width="110dp"
+        android:layout_height="55dp"
+        android:onClick="startTiles5By5"
+        android:text="@string/play_5by5"
+        android:textAllCaps="true"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="18sp"
+        app:layout_constraintBaseline_toBaselineOf="@+id/buttonPlay4By4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toEndOf="@+id/buttonPlay4By4" />
+
+    <Button
+        android:id="@+id/buttonExitTiles"
+        style="?buttonSecondary"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="60dp"
+        android:onClick="exitTilesGame"
+        android:text="@string/button_exit"
+        android:textColor="?android:attr/colorAccent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/instructionsTiles"
+        android:layout_width="327dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/instructions_tiles_light"
+        android:textAlignment="center"
+        android:textColor="?android:attr/colorSecondary"
+        android:textSize="17sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/titleTiles" />
+
+    <TextView
+        android:id="@+id/textModeSelect"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="35dp"
+        android:text="@string/text_select_mode"
+        android:textAlignment="center"
+        android:textAllCaps="true"
+        android:textColor="?attr/colorPrimaryDark"
+        android:textSize="28sp"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/instructionsTiles" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

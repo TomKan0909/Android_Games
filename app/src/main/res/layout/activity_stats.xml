@@ -1,0 +1,283 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Activities.main.StatsActivity">
+
+    <TextView
+        android:id="@+id/textSwipeLeft"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:text="@string/text_swipe_right"
+        android:textColor="?android:attr/colorSecondary"
+        android:textSize="7pt"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent" />
+
+    <TextView
+        android:id="@+id/Statistics"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="45dp"
+        android:text="@string/Statistics"
+        android:textAllCaps="true"
+        android:textColor="?android:attr/colorSecondary"
+        android:textSize="17pt"
+        android:textStyle="bold"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.506"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/TapiocaScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/TapiocaScore"
+        android:textAllCaps="false"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.189"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/Statistics" />
+
+    <TextView
+        android:id="@+id/TapiocaTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/TapiocaBestTime"
+        android:textAllCaps="false"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintStart_toStartOf="@+id/TapiocaScore"
+        app:layout_constraintTop_toBottomOf="@+id/TapiocaScore" />
+
+    <Button
+        android:id="@+id/Reset"
+        style="?buttonPrimary"
+        android:layout_width="215dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginBottom="15dp"
+        android:text="@string/Reset"
+        android:textColor="?android:attr/colorPrimaryDark"
+        app:layout_constraintBottom_toTopOf="@+id/ArrowLeft"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/TilesInvertAvgTime" />
+
+    <ImageView
+        android:id="@+id/ArrowLeft"
+        android:layout_width="128dp"
+        android:layout_height="52dp"
+        android:layout_marginBottom="10dp"
+        app:layout_constraintBottom_toTopOf="@+id/textSwipeLeft"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/arrow" />
+
+    <TextView
+        android:id="@+id/MazeEasyScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/MazeEasyScore"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/TapiocaAvgTime"
+        app:layout_constraintTop_toBottomOf="@+id/TapiocaAvgTime" />
+
+    <TextView
+        android:id="@+id/MazeHardScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/MazeHardScore"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/MazeMediumTime"
+        app:layout_constraintTop_toBottomOf="@+id/MazeMediumTime" />
+
+    <TextView
+        android:id="@+id/Tiles4Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/Tiles4Score"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/MazeHardAvgTime"
+        app:layout_constraintTop_toBottomOf="@+id/MazeHardAvgTime" />
+
+    <TextView
+        android:id="@+id/TilesInvertScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/TilesInvertScore"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Tiles5Time"
+        app:layout_constraintTop_toBottomOf="@+id/Tiles5Time" />
+
+    <TextView
+        android:id="@+id/Tiles5Score"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/Tiles5Score"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Tiles4Time"
+        app:layout_constraintTop_toBottomOf="@+id/Tiles4Time" />
+
+    <TextView
+        android:id="@+id/MazeMediumScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/MazeMediumScore"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/MazeEasyTime"
+        app:layout_constraintTop_toBottomOf="@+id/MazeEasyTime" />
+
+    <TextView
+        android:id="@+id/MazeEasyTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/MazeEasyTime"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/MazeEasyScore"
+        app:layout_constraintTop_toBottomOf="@+id/MazeEasyScore" />
+
+    <TextView
+        android:id="@+id/MazeMediumTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/MazeMediumTime"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/MazeMediumScore"
+        app:layout_constraintTop_toBottomOf="@+id/MazeMediumScore" />
+
+    <TextView
+        android:id="@+id/MazeHardTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/MazeHardTime"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/MazeHardScore"
+        app:layout_constraintTop_toBottomOf="@+id/MazeHardScore" />
+
+    <TextView
+        android:id="@+id/MazeHardAvgTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/MazeHardAvgTime"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/MazeHardTime"
+        app:layout_constraintTop_toBottomOf="@+id/MazeHardTime" />
+
+    <TextView
+        android:id="@+id/Tiles4Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/Tiles4Time"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Tiles4Score"
+        app:layout_constraintTop_toBottomOf="@+id/Tiles4Score" />
+
+    <TextView
+        android:id="@+id/Tiles5Time"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/Tiles5Time"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/Tiles5Score"
+        app:layout_constraintTop_toBottomOf="@+id/Tiles5Score" />
+
+    <TextView
+        android:id="@+id/TilesInvertTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/TilesInvertTime"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/TilesInvertScore"
+        app:layout_constraintTop_toBottomOf="@+id/TilesInvertScore" />
+
+    <TextView
+        android:id="@+id/TilesInvertAvgTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/TilesInvertAvgTime"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/TilesInvertTime"
+        app:layout_constraintTop_toBottomOf="@+id/TilesInvertTime" />
+
+    <TextView
+        android:id="@+id/TapiocaAvgTime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:text="@string/TapiocaAvgTime"
+        android:textColor="?android:attr/colorPrimaryDark"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.003"
+        app:layout_constraintStart_toStartOf="@+id/TapiocaTime"
+        app:layout_constraintTop_toBottomOf="@+id/TapiocaTime" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

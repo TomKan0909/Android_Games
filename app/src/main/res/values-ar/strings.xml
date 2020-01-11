@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?><!-- Translations made by Google translate -->
+<resources>
+    <string name="app_name">لعبه</string>
+    <string name="MazeScore">المتاهة درجة عالية:</string>
+    <string name="MazeTime">الوقت الذي يقضيه لعب المتاهة:</string>
+    <string name="Reset">اعادة تعيين الاحصائيات</string>
+    <string name="Statistics">إحصائياتك</string>
+    <string name="button_tapioca_launcher">قاذفة التابيوكا</string>
+    <string name="TapiocaScore">"تابيوكا قاذفة درجة عالية: "</string>
+    <string name="TileScore">البلاط درجة عالية:</string>
+    <string name="TileTime">الوقت الذي قضيته في بلاط اللعب:</string>
+    <string name="attachment_summary_off">قم بتنزيل المرفقات فقط عند الطلب يدويًا</string>
+    <string name="attachment_summary_on">قم بتنزيل المرفقات تلقائيًا لرسائل البريد الإلكتروني الواردة</string>
+    <string name="attachment_title">قم بتنزيل المرفقات الواردة</string>
+    <string name="buttonPlay">لعب</string>
+    <string name="button_exit">خروج</string>
+    <string name="button_maze">متاهة</string>
+    <string name="button_retry">حاول ثانية</string>
+    <string name="button_tiles">البلاط</string>
+    <string name="changeLang">لغة</string>
+    <string name="change_theme">موضوع</string>
+    <string name="create_account">خلق</string>
+    <string name="highScore">درجة عالية:</string>
+    <string name="instructions_maze">الهروب من المتاهة! الخطوات القليلة التي تتخذها أعلى درجاتك. حرك شخصيتك من خلال النقر على أزرار الأسهم.</string>
+    <string name="level">مستوى:</string>
+    <string name="login_button">تسجيل الدخول</string>
+    <string name="messages_header">رسائل</string>
+    <string name="password">ادخل رقمك السري</string>
+    <string name="password2">ادخل رقمك السري</string>
+    <string name="register_button">تسجيل</string>
+    <string name="reply_title">إجراء الرد الافتراضي</string>
+    <string name="score">أحرز هدفا:</string>
+    <string name="select_game">اختر لعبتك</string>
+    <string name="signUp">سجل</string>
+    <string name="signature_title">توقيعك</string>
+    <string name="steps">خطوات:</string>
+    <string name="sync_header">مزامنة</string>
+    <string name="sync_title">مزامنة البريد الإلكتروني بشكل دوري</string>
+    <string name="text_game_over">انتهت اللعبة</string>
+    <string name="text_swipe_left">اسحب لليسار!</string>
+    <string name="text_swipe_right">انتقد اليمين!</string>
+    <string name="title_activity_login">تسجيل الدخول</string>
+    <string name="title_activity_settings">الإعدادات</string>
+    <string name="title_maze">متاهة</string>
+    <string name="title_tiles">البلاط!</string>
+    <string name="username">أدخل اسم المستخدم الخاص بك</string>
+    <string name="username2">أدخل اسم المستخدم الخاص بك</string>
+    <string name="NotAvailable">غير متوفر حتى الآن :(</string>
+    <string name="SwipeToShop">انتقد اليمين للتسوق!</string>
+    <string name="coins">"عملات معدنية "</string>
+    <string name="characters">"الشخصيات المملوكة: "</string>
+    <string name="play_4by4">4 x 4</string>
+    <string name="text_select_mode">حدد وضعك</string>
+    <string name="play_5by5">5 x 5</string>
+    <string name="text_settings">الإعدادات</string>
+    <string name="button_settings_exit">x</string>
+    <string name="text_dark">داكن</string>
+    <string name="text_light">ضوء</string>
+    <string name="purchase">أريدها!</string>
+    <string name="cancel">إلغاء</string>
+    <string name="gisignIn">تسجيل الدخول</string>
+    <string name="likeToPurchase">هل ترغب في الشراء؟</string>
+    <string name="instructions">تعليمات</string>
+    <string name="instructions_tapioca">"البوب جميع الكرات!
+
+انقر على الكرات السوداء واسحبها في الاتجاه الذي تريد إطلاقه عليه.
+
+كرات براون تأخذ 1 طلقة لتدمير!
+الكرات الحمراء تأخذ 2 طلقات لتدمير
+سوف كرات بيضاء تعطيك زيادة السرعة!
+سوف الكرات الأرجواني تعطيك حياة اضافية!
+
+    لكن كن سريعًا حيث لديك فقط عدد محدود من الطلقات!"
+    </string>
+    <string name="play_invert">عكس</string>
+    <string name="play_easy">سهل</string>
+    <string name="play_hard">الصعب</string>
+    <string name="play_medium">متوسط</string>
+    <string name="MazeEasyScore">"المتاهة (سهل) درجة عالية "</string>
+    <string name="MazeMediumScore">"المتاهة (متوسطة) درجة عالية "</string>
+    <string name="MazeHardScore">"المتاهة (الثابت) درجة عالية "</string>
+    <string name="itemDescription">هل ترغب في شراء هذا ل</string>
+    <string name="instructions_tiles_dark">لا تلمس البلاط الأسود! اضغط على البلاط الأبيض لكسب النقاط. ستفقد إذا قمت بالنقر فوق بلاطة سوداء أو عندما يترك بلاطة بيضاء غير مستغلة اللوحة.  اختر بين لوحة 4X4 أو 5X5 للعب بانتظام ، ولتحدي التحدي ، اختر وضع الانعكاس! في وضع المقلوب ، ستنعكس المربعات البيضاء والبلاط الأسود بشكل عشوائي على الأخرى. لا تزال ترغب في النقر على جميع البلاط الأبيض وتجنب البلاط الأسود لذا كن حذرًا!</string>
+    <string name="instructions_tiles_light">لا تلمس البلاط الأبيض! اضغط على البلاط الأسود لكسب النقاط. ستفقد إذا قمت بالنقر فوق بلاطة بيضاء أو عندما يترك بلاطة سوداء غير مستغلة اللوحة.  اختر بين لوحة 4X4 أو 5X5 للعب بانتظام ، ولتحدي التحدي ، اختر وضع الانعكاس! في وضع المقلوب ، ستنعكس المربعات السوداء والبلاط الأبيض بشكل عشوائي على الأخرى. لا تزال ترغب في النقر على جميع البلاط الأسود وتجنب البلاط الأبيض لذا كن حذرًا!</string>
+    <string name="Tiles4Score">البلاط (4 × 4) درجة عالية:</string>
+    <string name="Tiles5Score">البلاط (5 × 5) درجة عالية:</string>
+    <string name="TilesInvertScore">البلاط (عكس) درجة عالية:</string>
+    <string name="shots">"لقطات: "</string>
+    <string name="MazeEasyTime">"المتاهة (سهل) أفضل وقت: "</string>
+    <string name="MazeMediumTime">المتاهة (متوسطة) أفضل وقت</string>
+    <string name="MazeHardTime">المتاهة (الثابت) أفضل وقت</string>
+    <string name="MazeHardAvgTime">"متاهة متوسط ​​الوقت "</string>
+    <string name="alreadyOwn">أنت بالفعل تمتلك هذا العنصر</string>
+    <string name="successfulPurchase">تم الشراء بنجاح</string>
+    <string name="insufficientFunds">أنت تفتقر إلى الأموال اللازمة لتنفيذ هذه العملية</string>
+    <string name="Sprite">Sprite</string>
+    <string name="pick_sprite">اختيار العفريت:</string>
+    <string name="colourDefault">افتراضي</string>
+    <string name="colourGreenPurple">الأخضر / الأرجواني</string>
+    <string name="colourOrangeTeal">برتقالي / أخضر فاتح</string>
+    <string name="colourBluePink">الأزرق والزهري</string>
+    <string name="TapiocaAvgTime">التابيوكا متوسط ​​الوقت:</string>
+    <string name="TapiocaBestTime">التابيوكا أفضل وقت:</string>
+    <string name="Tiles4Time">البلاط (4 × 4) أفضل وقت:</string>
+    <string name="Tiles5Time">البلاط (5 × 5) أفضل وقت:</string>
+    <string name="TilesInvertAvgTime">البلاط (عكس) متوسط ​​الوقت:</string>
+    <string name="TilesInvertTime">البلاط (عكس) أفضل وقت:</string>
+</resources>

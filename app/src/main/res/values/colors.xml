@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--  LIGHT THEME  -->
+    <color name="lightBackground">#F0F0F0</color>
+    <color name="lightRed">#C95858</color>
+
+    <!--  DARK THEME  -->
+    <color name="darkBackground">#1F1F1F</color>
+    <color name="darkRed">#B12828</color>
+
+    <!--  DEFAULT  -->
+    <color name="defaultPrimary">#DCDCDC</color>
+    <color name="defaultPrimaryDark">#737373</color>
+    <color name="defaultSecondary">#565656</color>
+    <color name="defaultAccent">#D0D0D0</color>
+
+    <!--  GREEN/PURPLE  -->
+    <color name="gpPrimary">#ECE2A9</color>
+    <color name="gpPrimaryDark">#9DA16D</color>
+    <color name="gpSecondary">#7875AD</color>
+    <color name="gpAccent">#A8B2EB</color>
+
+    <!--  ORANGE/TEAL  -->
+    <color name="otPrimary">#EAAE66</color>
+    <color name="otPrimaryDark">#B06F1E</color>
+    <color name="otSecondary">#69A5AB</color>
+    <color name="otAccent">#C7E6E6</color>
+
+    <!--  BLUE/PINK  -->
+    <color name="bpPrimary">#BDDAE1</color>
+    <color name="bpPrimaryDark">#7499A1</color>
+    <color name="bpSecondary">#D7A2A5</color>
+    <color name="bpAccent">#EFDFDF</color>
+</resources>

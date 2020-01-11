@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.game">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="Tapioca Launcher"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/LightDefaultTheme">
+        <activity android:name=".Activities.main.SpriteFragment"></activity>
+        <activity android:name=".Activities.main.ShopActivity" />
+        <activity android:name=".Activities.main.StatsActivity" />
+        <activity android:name=".Activities.main.GameLauncher.TapiocaGameLauncher" />
+        <activity android:name=".Activities.main.GameLauncher.TilesGameLauncher" />
+        <activity android:name=".Activities.main.GameLauncher.MazeGameLauncher" />
+        <activity android:name=".TilesGame.GameFinish" />
+        <activity android:name=".Activities.main.MainActivity" />
+        <activity android:name=".TapiocaLauncher.TapiocaGameActivity" />
+        <activity android:name=".TilesGame.TileGameActivity" />
+        <activity
+            android:name=".MazeGame.MazeGameActivity"
+            android:screenOrientation="landscape" />
+        <activity android:name=".Activities.Loginregister.LoginActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.Loginregister.RegisterActivity" />
+        <activity android:name=".Activities.Game.GameOverActivity" />
+    </application>
+
+</manifest>
