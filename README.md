@@ -31,6 +31,7 @@ applies to the other games(Tiles and Tapioca Launcher).
 2.All CRUD operations in the game. 
 
 The login & register functionality. 
+
 <img src = "https://github.com/TomKan0909/android_games/blob/master/images/login.png" width="300"> <img src = "https://github.com/TomKan0909/android_games/blob/master/images/register.png" width="300">
 
 Retrieving display user's high score, average score, best time ,average time taken for each game.
