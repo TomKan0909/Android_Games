@@ -12,25 +12,38 @@ You can also customize your experience by changing the language, theme, and your
 
 # Parts I implemented 
 
-1. Maze Navigator game. Goal of the game is to escape the maze in the fewest number of steps.
+1.Maze Navigator game. 
+
+Goal of the game is to escape the maze in the fewest number of steps.
 Collect coins to increase your score by a random amount. There are three difficulty levels.
-![easy](https://github.com/TomKan0909/android_games/tree/master/images/maze_easy.png) ![medium](https://github.com/TomKan0909/android_games/tree/master/images/maze_medium.png) ![hard](https://github.com/TomKan0909/android_games/tree/master/images/maze_hard.png)
+
+![](https://github.com/TomKan0909/android_games/tree/master/images/maze_easy.png) 
+
+![](https://github.com/TomKan0909/android_games/tree/master/images/maze_medium.png) 
+
+![](https://github.com/TomKan0909/android_games/tree/master/images/maze_hard.png)
 
 At the end of each game, the score is recorded and the score is also converted to coins. This also
 applies to the other games(Tiles and Tapioca Launcher).
-![record_score](https://github.com/TomKan0909/android_games/tree/master/images/record_score.png)
 
-2. All CRUD operations in the game. The login & register functionality. 
+![](https://github.com/TomKan0909/android_games/tree/master/images/record_score.png)
 
-![login](https://github.com/TomKan0909/android_games/tree/master/images/login.png) ![register](https://github.com/TomKan0909/android_games/tree/master/images/register.png)
+2. All CRUD operations in the game. 
+
+The login & register functionality. 
+![](https://github.com/TomKan0909/android_games/tree/master/images/login.png) 
+
+![](https://github.com/TomKan0909/android_games/tree/master/images/register.png)
 
 Retrieving display user's high score, average score, best time ,average time taken for each game.
 
-![user_stats](https://github.com/TomKan0909/android_games/tree/master/images/user_stats.png)
+![](https://github.com/TomKan0909/android_games/tree/master/images/user_stats.png)
 
 And recording in game micro-transactions.
 
-![store](https://github.com/TomKan0909/android_games/tree/master/images/store.png) ![store_bought](https://github.com/TomKan0909/android_games/tree/master/images/.png)
+![](https://github.com/TomKan0909/android_games/tree/master/images/store.png) 
+
+![](https://github.com/TomKan0909/android_games/tree/master/images/store_bought.png)
 
 
 
