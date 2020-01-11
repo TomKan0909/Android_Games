@@ -17,33 +17,33 @@ You can also customize your experience by changing the language, theme, and your
 Goal of the game is to escape the maze in the fewest number of steps.
 Collect coins to increase your score by a random amount. There are three difficulty levels.
 
-![](https://github.com/TomKan0909/android_games/tree/master/images/maze_easy.png) 
+![](https://github.com/TomKan0909/android_games/blob/master/images/maze_medium.png) 
 
-![](https://github.com/TomKan0909/android_games/tree/master/images/maze_medium.png) 
+![](https://github.com/TomKan0909/android_games/blob/master/images/maze_medium.png) 
 
-![](https://github.com/TomKan0909/android_games/tree/master/images/maze_hard.png)
+![](https://github.com/TomKan0909/android_games/blob/master/images/maze_hard.png)
 
 At the end of each game, the score is recorded and the score is also converted to coins. This also
 applies to the other games(Tiles and Tapioca Launcher).
 
-![](https://github.com/TomKan0909/android_games/tree/master/images/record_score.png)
+![](https://github.com/TomKan0909/android_games/blob/master/images/record_score.png)
 
-2. All CRUD operations in the game. 
+2.All CRUD operations in the game. 
 
 The login & register functionality. 
-![](https://github.com/TomKan0909/android_games/tree/master/images/login.png) 
+![](https://github.com/TomKan0909/android_games/blob/master/images/login.png) 
 
-![](https://github.com/TomKan0909/android_games/tree/master/images/register.png)
+![](https://github.com/TomKan0909/android_games/blob/master/images/register.png)
 
 Retrieving display user's high score, average score, best time ,average time taken for each game.
 
-![](https://github.com/TomKan0909/android_games/tree/master/images/user_stats.png)
+![](https://github.com/TomKan0909/android_games/blob/master/images/user_stats.png)
 
 And recording in game micro-transactions.
 
-![](https://github.com/TomKan0909/android_games/tree/master/images/store.png) 
+![](https://github.com/TomKan0909/android_games/blob/master/images/store.png) 
 
-![](https://github.com/TomKan0909/android_games/tree/master/images/store_bought.png)
+![](https://github.com/TomKan0909/android_games/blobmaster/images/store_bought.png)
 
 
 
