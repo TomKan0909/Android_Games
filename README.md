@@ -12,7 +12,7 @@ You can also customize your experience by changing the language, theme, and your
 
 # Parts I implemented 
 
-1.Maze Navigator game. 
+1.Maze Navigator game. https://github.com/TomKan0909/android_games/tree/master/app/src/main/java/com/example/game/MazeGame
 
 Goal of the game is to escape the maze in the fewest number of steps.
 Collect coins to increase your score by a random amount. There are three difficulty levels.
@@ -28,7 +28,7 @@ applies to the other games(Tiles and Tapioca Launcher).
 
 <img src = "https://github.com/TomKan0909/android_games/blob/master/images/record_score.png" width="400">
 
-2.All CRUD operations in the game. 
+2.All CRUD operations in the game. https://github.com/TomKan0909/android_games/tree/master/app/src/main/java/com/example/game/DataBase
 
 The login & register functionality. 
 
